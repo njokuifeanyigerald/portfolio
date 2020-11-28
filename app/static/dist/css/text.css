@@ -1,0 +1,30 @@
+.me{
+    font-family: cursive;
+}
+span:before{
+    content: '';
+    animation: animate infinite 10s;
+}
+
+@keyframes animate{
+    0%{
+        content: 'A Critical Thinker';
+        
+    }
+    20%{
+        content: 'A Software Engineer';
+    }
+    40%{
+        content: 'A Web Developer';
+    }
+    60%{
+        content: 'A DevOps engineer';
+    }
+    80%{
+        content: 'A freelancer';
+    }
+    100%{
+        content: 'BopGeek';
+    }
+}
+    
