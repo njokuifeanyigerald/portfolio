@@ -95,10 +95,6 @@
 * {
   box-sizing: border-box; }
 
-.text-capitalize{
-  text-transform: capitalize;
-}
-
 body {
   background: #444;
   color: #fff;
@@ -107,8 +103,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../img/download\ \(1\).jpg");
-    background: rgba(68, 68, 68, 0.9), url("../img/download\ \(1\).jpg");
+    background: url(../img/download.jpg);
+    background: rgba(68, 68, 68, 0.9), url(../img/download.jpg);
     background-attachment: fixed;
     background-size: cover; } 
 

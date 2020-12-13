@@ -1,4 +1,5 @@
 from django.shortcuts import render,redirect
+from .models import Work
 
 def index(request):
     context = {
@@ -18,7 +19,8 @@ def about(request):
     }
     return render(request, 'dist/about.html')
 def work(request):
+    queryset = Work.objects.all()
     context = {
-
+        'queryset' :queryset
     }
-    return render(request, 'dist/work.html')
+    return render(request, 'dist/work.html', context)
